@@ -80,3 +80,9 @@ This will output the following grid in the terminal:
 + + + + + + + + + + | + + + + + + + + + +
 + + + + + + + + + + | + + + + + + + + + +
 ```
+
+## Documentation
+
+You can find more info here: http://www.rubydoc.info/gems/ascii_grid/0.1.1/Ascii_grid
+
+Here is the homepage of the gem: https://rubygems.org/gems/ascii_grid
