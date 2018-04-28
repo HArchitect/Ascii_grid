@@ -1,6 +1,9 @@
 # Ascii_grid
 
 [![Build Status](https://travis-ci.org/HArchitect/Ascii_grid.svg?branch=master)](https://travis-ci.org/HArchitect/Ascii_grid)
+[![Gem Version](https://badge.fury.io/rb/ascii_grid.svg)](https://badge.fury.io/rb/ascii_grid)
+![](https://ruby-gem-downloads-badge.herokuapp.com/ascii_grid/0.1.1?label=v0.1.1-downloads)
+![](https://ruby-gem-downloads-badge.herokuapp.com/ascii_grid?type=total)
 
 This is a ruby gem that will help you make grids in the terminal
 
