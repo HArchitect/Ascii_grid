@@ -4,11 +4,40 @@ This is a ruby gem that will help you make grids in the terminal
 
 ## Install
 
-Right now the best way to install the gem is to download the source code and run
-these commands:
+This gem is might change in the future. It is recomended that you
+use the bundler method listed below so you and anyone using your program get the
+right gem version.
+
+### With bundler (Recomended)
+
+Add the following line to your Gemfile:
+```gemfile
+gem 'ascii_grid', '~> 0.1.0'
+```
+
+then run this command:
+
+    bundle install
+
+### Direct install 
+
+To installl the latest version of the gem directly to your computer 
+run this command:
+
+    gem install ascii_grid
+
+### Install from source
+
+First you will need to get the source code. You can do this any way you want.
+One way is by cloning it from GitHub. You can do so with this command:
+
+    git clone https://github.com/HArchitect/Ascii_grid.git
+
+Then you need to run these two commands to install it to your computer.
 
     gem build ascii_grid.gemspec
-    sudo gem install ./ascii_grid-0.1.0.gem
+    gem install ./ascii_grid-0.1.0.gem
+
 
 ## Usage
 
