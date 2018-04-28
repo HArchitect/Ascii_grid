@@ -1,5 +1,7 @@
 # Ascii_grid
 
+[![Build Status](https://travis-ci.org/HArchitect/Ascii_grid.svg?branch=master)](https://travis-ci.org/HArchitect/Ascii_grid)
+
 This is a ruby gem that will help you make grids in the terminal
 
 ## Install
