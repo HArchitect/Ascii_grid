@@ -4,6 +4,8 @@
 
 This is a ruby gem that will help you make grids in the terminal
 
+requires ruby >= 2.0.0
+
 ## Install
 
 This gem is might change in the future. It is recomended that you
@@ -14,7 +16,7 @@ right gem version.
 
 Add the following line to your Gemfile:
 ```gemfile
-gem 'ascii_grid', '~> 0.1.0'
+gem 'ascii_grid', '~> 0.1.1'
 ```
 
 then run this command:
@@ -38,7 +40,7 @@ One way is by cloning it from GitHub. You can do so with this command:
 Then you need to run these two commands to install it to your computer.
 
     gem build ascii_grid.gemspec
-    gem install ./ascii_grid-0.1.0.gem
+    gem install ./ascii_grid-0.1.1.gem
 
 
 ## Usage
