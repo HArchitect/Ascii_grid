@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
     s.email       = 'harimscode@gmail.com'
     s.files       = ["lib/ascii_grid.rb"]
     s.license       = 'MIT'
-    s.required_ruby_version = '>= 2.2.0'
+    s.required_ruby_version = '>= 2.0.0'
 end
   
