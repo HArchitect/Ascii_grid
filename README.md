@@ -11,7 +11,7 @@ requires ruby >= 2.0.0
 
 ## Install
 
-This gem is might change in the future. It is recomended that you
+This gem might change in the future. It is recomended that you
 use the bundler method listed below so you and anyone using your program get the
 right gem version.
 
@@ -24,26 +24,26 @@ gem 'ascii_grid', '~> 0.1.1'
 
 then run this command:
 
-    bundle install
+    $ bundle install
 
 ### Direct install 
 
 To installl the latest version of the gem directly to your computer 
 run this command:
 
-    gem install ascii_grid
+    $ gem install ascii_grid
 
 ### Install from source
 
 First you will need to get the source code. You can do this any way you want.
 One way is by cloning it from GitHub. You can do so with this command:
 
-    git clone https://github.com/HArchitect/Ascii_grid.git
+    $ git clone https://github.com/HArchitect/Ascii_grid.git
 
 Then you need to run these two commands to install it to your computer.
 
-    gem build ascii_grid.gemspec
-    gem install ./ascii_grid-0.1.1.gem
+    $ gem build ascii_grid.gemspec
+    $ gem install ./ascii_grid-0.1.1.gem
 
 
 ## Usage
