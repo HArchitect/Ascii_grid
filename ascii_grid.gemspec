@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
     s.name        = 'ascii_grid'
-    s.version     = '0.1.1'
-    s.date        = '2018-04-28'
+    s.version     = '0.1.2'
+    s.date        = '2018-09-26'
     s.summary     = "Create a grid in the terminal"
     s.description = "This gem should allow you to easily create grids in the terminal and display points in that grid"
     s.authors     = ["Harim"]
