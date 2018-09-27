@@ -22,7 +22,7 @@ class Ascii_grid
         @y_size = x_size.to_i
         @x_offset = x_offset.to_i
         @y_offset = y_offset.to_i
-        @point = "@"
+        @point = "\e[31m@\e[0m"
         @blank_space = "+"
         @clear = false
     end
@@ -78,7 +78,7 @@ class Ascii_grid
                         printed << @blank_space.to_s
                     end
                 end
-                if (y_offset == current_y)
+                if (y_offset == current_y && current_x != @x_size)
                     printed << "-"
                 else
                     printed << " "

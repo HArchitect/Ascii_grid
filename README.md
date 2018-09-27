@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/HArchitect/Ascii_grid.svg?branch=master)](https://travis-ci.org/HArchitect/Ascii_grid)
 [![Gem Version](https://badge.fury.io/rb/ascii_grid.svg)](https://badge.fury.io/rb/ascii_grid)
-![](https://ruby-gem-downloads-badge.herokuapp.com/ascii_grid/0.1.1?label=v0.1.1-downloads)
+![](https://ruby-gem-downloads-badge.herokuapp.com/ascii_grid/0.1.1?label=v0.1.2-downloads)
 ![](https://ruby-gem-downloads-badge.herokuapp.com/ascii_grid?type=total)
 
 This is a ruby gem that will help you make grids in the terminal
@@ -19,7 +19,7 @@ right gem version.
 
 Add the following line to your Gemfile:
 ```gemfile
-gem 'ascii_grid', '~> 0.1.1'
+gem 'ascii_grid', '~> 0.1.2'
 ```
 
 then run this command:
@@ -43,7 +43,7 @@ One way is by cloning it from GitHub. You can do so with this command:
 Then you need to run these two commands to install it to your computer.
 
     $ gem build ascii_grid.gemspec
-    $ gem install ./ascii_grid-0.1.1.gem
+    $ gem install ./ascii_grid-0.1.2.gem
 
 
 ## Usage
@@ -58,31 +58,31 @@ grid.make_grid(1, 2, 4, -3)
 This will output the following grid in the terminal:
 
 ```
-+ + + + + + + + + + | + + + + + + + + + +
-+ + + + + + + + + + | + + + + + + + + + +
-+ + + + + + + + + + | + + + + + + + + + +
-+ + + + + + + + + + | + + + + + + + + + +
-+ + + + + + + + + + | + + + + + + + + + +
-+ + + + + + + + + + | + + + + + + + + + +
-+ + + + + + + + + + | + + + + + + + + + +
-+ + + + + + + + + + | + + + + + + + + + +
-+ + + + + + + + + + | @ + + + + + + + + +
-+ + + + + + + + + + | + + + + + + + + + +
---------------------|---------------------
-+ + + + + + + + + + | + + + + + + + + + +
-+ + + + + + + + + + | + + + + + + + + + +
-+ + + + + + + + + + | + + + @ + + + + + +
-+ + + + + + + + + + | + + + + + + + + + +
-+ + + + + + + + + + | + + + + + + + + + +
-+ + + + + + + + + + | + + + + + + + + + +
-+ + + + + + + + + + | + + + + + + + + + +
-+ + + + + + + + + + | + + + + + + + + + +
-+ + + + + + + + + + | + + + + + + + + + +
-+ + + + + + + + + + | + + + + + + + + + +
++ + + + + + + + + + | + + + + + + + + + + 
++ + + + + + + + + + | + + + + + + + + + + 
++ + + + + + + + + + | + + + + + + + + + + 
++ + + + + + + + + + | + + + + + + + + + + 
++ + + + + + + + + + | + + + + + + + + + + 
++ + + + + + + + + + | + + + + + + + + + + 
++ + + + + + + + + + | + + + + + + + + + + 
++ + + + + + + + + + | + + + + + + + + + + 
++ + + + + + + + + + | @ + + + + + + + + + 
++ + + + + + + + + + | + + + + + + + + + + 
+--------------------|-------------------- 
++ + + + + + + + + + | + + + + + + + + + + 
++ + + + + + + + + + | + + + + + + + + + + 
++ + + + + + + + + + | + + + @ + + + + + + 
++ + + + + + + + + + | + + + + + + + + + + 
++ + + + + + + + + + | + + + + + + + + + + 
++ + + + + + + + + + | + + + + + + + + + + 
++ + + + + + + + + + | + + + + + + + + + + 
++ + + + + + + + + + | + + + + + + + + + + 
++ + + + + + + + + + | + + + + + + + + + + 
++ + + + + + + + + + | + + + + + + + + + + 
 ```
 
 ## Documentation
 
-You can find more info here: http://www.rubydoc.info/gems/ascii_grid/0.1.1/Ascii_grid
+You can find more info here: http://www.rubydoc.info/gems/ascii_grid/0.1.2/Ascii_grid
 
 Here is the homepage of the gem: https://rubygems.org/gems/ascii_grid
