@@ -11,20 +11,21 @@ requires ruby >= 2.0.0
 
 ## Install
 
-This gem might change in the future. It is recomended that you
-use the bundler method listed below so you and anyone using your program get the
+This gem might change in the future. So it is recomended that you
+use the bundler method listed below so you and anyone using your program gets the
 right gem version.
 
 ### With bundler (Recomended)
 
 Add the following line to your Gemfile:
-```gemfile
+```ruby
 gem 'ascii_grid', '~> 0.1.2'
 ```
 
 then run this command:
 
     $ bundle install
+
 
 ### Direct install 
 
